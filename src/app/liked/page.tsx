@@ -30,7 +30,7 @@ const Liked: React.FC = () => {
       <Flex gridGap={6}>
         <FaHeart color='#d33c3c' size={40} />
         <Heading color='fontColor.600' fontSize='4xl'>
-          Favoritos
+          Favorites
         </Heading>
       </Flex>
       <Box>

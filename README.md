@@ -10,12 +10,11 @@ The application is available for viewing at [vercel](https://mymovieslist.vercel
 
 ## Project dependencies:
 
-- [Axios](https://axios-http.com/docs/intro)
-- [ChakraUI](https://chakra-ui.com/docs/getting-started)
-- [Next](https://nextjs.org/)
-- [React](https://reactjs.org/)
-- [React Select](https://react-select.com/home)
-- [Typescript](https://www.typescriptlang.org/)
+- [Axios](https://axios-http.com/docs/intro): For handling HTTP requests
+- [ChakraUI](https://chakra-ui.com/docs/getting-started): As Design system framework
+- [Next](https://nextjs.org/): as a React framework for server-side rendering
+- [React](https://reactjs.org/): as the main library for the project
+- [Typescript](https://www.typescriptlang.org/): for static typing and better code quality
 
 API: [https://www.omdbapi.com/](https://www.omdbapi.com/)
 

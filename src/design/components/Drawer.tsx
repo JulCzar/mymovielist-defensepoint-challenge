@@ -34,12 +34,12 @@ const Drawer: React.FC<DrawerProps> = ({ isOpen, onClose }) => {
       await importUserData(file);
 
       toast({
-        title: 'Configurações importadas com sucesso!',
+        title: 'configs imported successfully!',
       });
     } catch (e) {
       toast({
         title:
-          'Não foi possível importar as configurações, verifique o arquivo e tente novamente!',
+          'We were unable to import your configs, verify the file and try again!',
         status: 'warning',
       });
     } finally {
@@ -58,22 +58,22 @@ const Drawer: React.FC<DrawerProps> = ({ isOpen, onClose }) => {
         <DrawerBody>
           <List>
             <ListItem
-              title='Favoritos'
+              title='Favorites'
               icon={<FaHeart />}
               spacing={4}
               onClick={navigateTo('/liked')}
             />
-            <ListItem title='Importar Dados' icon={<FiUpload />} spacing={4}>
+            <ListItem title='Import Data' icon={<FiUpload />} spacing={4}>
               <FileUpload
-                helperText='Seus Favoritos e assistidos atuais serão perdidos!'
+                helperText='Your current favorites movies will be lost!'
                 onUpload={handleFileUpload}
-                placeholder='Selecione o arquivo'
+                placeholder='Select your file...'
                 acceptedFileTypes='application/json'
               />
             </ListItem>
             <ListItem
               onClick={exportUserData}
-              title='Exportar Dados'
+              title='Export Data'
               icon={<FiDownload />}
               spacing={4}
             />

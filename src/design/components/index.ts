@@ -5,7 +5,6 @@ export { default as Header } from './Header';
 export { default as InfinityGrid } from './InfinityGrid';
 export { default as List } from './List';
 export { default as ListItem } from './ListItem';
-export { default as MultiSelect } from './MultiSelect';
 export { default as Presentation } from './Presentation';
 export { default as MovieDetailSkeleton } from './MovieDetailSkeleton';
 export { default as MovieSkeleton } from './MovieSKeleton';

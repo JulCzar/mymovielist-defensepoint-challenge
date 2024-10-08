@@ -6,7 +6,7 @@ Using it is simple. Just search for the movie using our filters, mark the titles
 
 ## Usage
 
-The application is available for viewing at [vercel](https://mymovieslist.vercel.app/)
+The application is available for viewing at [vercel](https://mymovielist-beta.vercel.app/)
 
 ## Project dependencies:
 

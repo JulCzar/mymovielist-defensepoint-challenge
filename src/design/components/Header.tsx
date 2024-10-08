@@ -25,7 +25,7 @@ const Header: React.FC = () => {
             <Heading mr={[2, 20]} color='yellow.400'>
               <Link passHref href='/'>
                 <Heading fontSize={['md', 'lg', '2xl']} as='a'>
-                  mymovielist
+                  mymovielist-beta
                   <Text color='white' as='span'>
                     .vercel.com
                   </Text>

@@ -1,4 +1,4 @@
-## [My Movie List](https://mymovielist.vercel.app/)
+## [My Movie List](https://mymovielist-beta.vercel.app/)
 
 My Movie List is a service that uses the [Open Movie DB](https://www.omdbapi.com/) API to list the most popular movies and keep track of watched titles.
 
